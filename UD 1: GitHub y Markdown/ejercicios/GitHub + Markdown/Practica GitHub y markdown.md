@@ -15,6 +15,7 @@ Después de esto vamos a poner los datos que queremos que tenga nuestro reposito
 ![imagen2](imagen2.png)
 
 Una vez que hemos rellenado los cambios vamos a dar click en el botón de crear el repositorio:
+
 ![imagen3](imagen3.png)
 
 De esta forma hemos creado nuestro primer repositorio en GitHub
