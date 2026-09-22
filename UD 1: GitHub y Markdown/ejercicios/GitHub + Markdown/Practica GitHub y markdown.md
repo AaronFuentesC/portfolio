@@ -41,3 +41,11 @@ Si queremos observar el historial de los commits que se han realizado, se puede 
 ![imagen7](imagen7.png)
 
 ## Crear y administrar ramas
+
+Una vez que hemos creado repositorios y archivos vamos a aprender a cómo crear y gestionar ramas.
+
+Para crear una rama tenemos que dirigirnos a la página principal del repositorio, y a la izquierda donde pone "main" (que es la rama en la que estamos actualmente) y cuando escribamos el nombre de la rama que queremos crear tan solo le damos al botón de create branch.
+
+![imagen8](imagen8.png)
+
+Ahora vamos a hacer un pull request para añadir los cambios que he hecho en el fichero
