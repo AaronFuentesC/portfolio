@@ -19,3 +19,25 @@ Una vez que hemos rellenado los cambios vamos a dar click en el botón de crear 
 ![imagen3](imagen3.png)
 
 De esta forma hemos creado nuestro primer repositorio en GitHub
+
+## Como subir archivos a GitHub
+
+Una vez que ya tenemos creado el repositorio vamos a aprender a como subir archivos a un repositorio de github.
+
+Estando dentro de nuestro repositorio tenemos que darle al botón que pone "Add File" y en este caso como vamos a subir un archivo vamos a seleccionar la opcion de upload files.
+
+![imagen4](imagen4.png)
+
+Una vez que le hemos dado click a subir archivos nos da la opción de subir los archivos que queramos desde nuestro ordenador. Para poder terminar de subirlo tambien tendremos que añadir un mensaje en el commit y darle al botón de commit changes:
+
+![imagen5](imagen5.png)
+
+Y una vez que ya hemos subido el archivo podemos verlo desde la página principal del repositorio:
+
+![imagen6](imagen6.png)
+
+Si queremos observar el historial de los commits que se han realizado, se puede hacer también desde la página principal del repositorio:
+
+![imagen7](imagen7.png)
+
+## Crear y administrar ramas
