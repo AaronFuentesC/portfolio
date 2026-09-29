@@ -48,4 +48,34 @@ Para crear una rama tenemos que dirigirnos a la página principal del repositori
 
 ![imagen8](imagen8.png)
 
-Ahora vamos a hacer un pull request para añadir los cambios que he hecho en el fichero
+Ahora vamos a hacer un pull request para añadir los cambios que he hecho en el fichero. Para eso nos tenemos que dirigir a la pestaña de pull request del proyecto y le damos al botón para crear la pull request.
+
+![imagen9](imagen9.png)
+
+Y ahora le tenemos que dar al botón para crear el pull request.
+
+![imagen11](imagen11.png)
+
+Una vez que hemos comprobado que no hay ningún problema con los cambios que hemos hecho, vamos a hacer el merge en el pull request.
+
+![imagen12](imagen12.png)
+
+## Gestionar configuración y permisos
+
+En este punto vamos a ver cómo cambiar la configuración del repositorio de github. Para ello hay que entrar en la pestaña de settings.
+
+![imagen13](imagen13.png)
+
+Dentro de este apartado vas a poder cambiar muchas opciones del repositorio, pero voy a enseñar cuales son las más importantes, que son las opciones que se encuentran en la "Danger Zone"
+
+![imagen14](imagen14.png)
+
+Como se puede ver, puedes realizar varios cambios en las opciones que hay en esta zona, como cambiar la visibilidad del repositorio de privado a público o viceversa (En este caso el repositorio está en público), puedes deshabilitar las reglas de protección de ramas, transferir la posesión del repositorio para cambiar el dueño del repositorio actual.
+También puedes archivar el repositorio para que no se puedan hacer más cambios en el repositorio y que sea de solo lectura y como última opción puedes eliminar el repositorio.
+
+## Conclusiones
+
+En este fichero ya he hablado de las opciones más básicas que tiene github y una breve descripción.
+Personalmente, yo ya utilizaba github antes de realizar esta práctica y no solo eso, sino que lo llevo utilizando desde que he empezado a ser desarrollador. Es una plataforma en la que puedes almacenar tus proyectos personales, colaborar con otras personas, seguir los cambios de tus propios proyectos, descubrir proyectos de otras personas...
+En mi opinión GitHub es la plataforma de control de versiones más completa, con más usuarios y más sencilla de aprender. Si eres un desarrollador alguna vez has tenido que oir hablar de github y seguramente te lo hayan recomendado para la gestión de proyectos.
+Si necesitas gestionar los proyectos que estás desarrollando, sin duda GitHub sería la opción que yo usaria.
