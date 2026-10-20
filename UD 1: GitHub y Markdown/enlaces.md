@@ -1,2 +1,4 @@
 - [Práctica 1: Introducción a GitHub](https://github.com/AaronFuentesC/portfolio/blob/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/GitHub%20Introducci%C3%B3n%20Aar%C3%B3n%20Fuentes%20Casanova.pdf)
 - [Práctica 2: Práctica Markdown](https://github.com/AaronFuentesC/portfolio/blob/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/Practica%20Markdown.md)
+- [Practica 3: GitHub + Markdown](https://github.com/AaronFuentesC/portfolio/blob/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/GitHub%20%2B%20Markdown/Practica%20GitHub%20y%20markdown.md)
+- [Practica 4: Evaluación y uso de un generador de documentación](https://github.com/AaronFuentesC/portfolio/tree/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/Actividad%20pr%C3%A1ctica%20Evaluaci%C3%B3n%20y%20uso%20de%20un%20generador%20de%20documentaci%C3%B3n)
