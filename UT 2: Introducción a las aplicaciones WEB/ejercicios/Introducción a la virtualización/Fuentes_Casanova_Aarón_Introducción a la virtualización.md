@@ -33,4 +33,36 @@ Y con eso, ya tendríamos instalado docker:
 ![Imagen2](captura2.png)
 
 ## Crear y ejecutar los contenedores
+En este apartado vamos a ver como instalar y ejecutar contenedores. En este caso los contenedores que vamos a crear son contenedores de nginx y tomcat. 
+
+Para crear el contendor de nginx tendremos que ejecutar el siguiente comando:
+
+_docker run -d -p 8080:80 --name webserver nginx_
+
+De esta forma si no tenemos la imagen se nos instalará de manera automática y le vamos a poner el nombre de webserver al contenedor.
+
+![Imagen3](captura3.png)
+
+Una vez que hemos creado el contenedor de nginx, vamos a proceder a crear el contenedor de tomcat con el siguiente comando:
+
+_sudo docker run -d -p 8081:8080 --name appserver tomcat_
+
+Como se puede observar el comando comparado con el de nginx es prácticamente igual, solo que vamos a cambiar el mapeo de puertos y el nombre para poder diferenciarlos.
+
+![Imagen4](captura4.png)
+
+Ya que hemos creado los 2 contenedores, vamos a probar que funcionan las páginas web. Primero vamos a probar comprobar que los contenedores están corriendo: 
+
+![Imagen5](captura5.png)
+
+Una vez que están corriendo, vamos al navegador para probar ambas páginas. Vamos a probar con la de nginx:
+
+![Imagen6](captura6.png)
+
+Y una vez que hemos comprado que la de nginx funciona, vamos a probar con la de tomcat:
+
+![Imagen7](captura7.png)
+
+Como se puede ver aquí da un error, pero eso es porque como lo acabamos de instalar y parece ser que no tiene ninguna página de prueba, dice que no lo encuentra.
+Sin embargo, que ya detecte tomcat es una señal de que el servidor funciona correctamente.
 
