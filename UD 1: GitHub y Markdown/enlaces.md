@@ -2,3 +2,4 @@
 - [Práctica 2: Práctica Markdown](https://github.com/AaronFuentesC/portfolio/blob/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/Practica%20Markdown.md)
 - [Practica 3: GitHub + Markdown](https://github.com/AaronFuentesC/portfolio/blob/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/GitHub%20%2B%20Markdown/Practica%20GitHub%20y%20markdown.md)
 - [Practica 4: Evaluación y uso de un generador de documentación](https://github.com/AaronFuentesC/portfolio/tree/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/Actividad%20pr%C3%A1ctica%20Evaluaci%C3%B3n%20y%20uso%20de%20un%20generador%20de%20documentaci%C3%B3n)
+- [Práctica 5: Práctica de seguridad y accesibilidad en el control de versiones](https://github.com/AaronFuentesC/portfolio/tree/main/UD%201%3A%20GitHub%20y%20Markdown/ejercicios/Pr%C3%A1ctica%20de%20seguridad%20y%20accesibilidad%20en%20el%20control%20de%20versiones)
