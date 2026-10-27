@@ -20,3 +20,17 @@ Una vez que ya tenemos descargado Ubuntu, podremos ver finalmente el escritorio 
 ## Pasos para instalar Docker Desktop
 En este apartado vamos a ver los pasos a seguir para poder instalar Docker Desktop en nuestra máquina virtual.
 
+El primer paso que vamos a realizar va a ser descargarnos el instalador de nuestro sistema operativo (en este caso ubuntu) con el siguiente comando:
+
+_wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb_
+
+Una vez que tenemos descargado el instalador, vamos a situarnos en la carpeta en la que se haya descargado y ejecutar el siguiente comando:
+
+_sudo apt install ./docker-desktop-amd64.deb_
+
+Y con eso, ya tendríamos instalado docker:
+
+![Imagen2](captura2.png)
+
+## Crear y ejecutar los contenedores
+
