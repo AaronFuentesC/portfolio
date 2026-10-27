@@ -66,3 +66,28 @@ Y una vez que hemos comprado que la de nginx funciona, vamos a probar con la de 
 Como se puede ver aquí da un error, pero eso es porque como lo acabamos de instalar y parece ser que no tiene ninguna página de prueba, dice que no lo encuentra.
 Sin embargo, que ya detecte tomcat es una señal de que el servidor funciona correctamente.
 
+## Requerimientos mínimos para implantar una aplicación web
+En este punto vamos a conocer los requisitos mínimos para implantar una aplicación web incluyendo:
+- Requisitos de hardware y software.
+- Infraestructura de red.
+- Configuración del servidor web y de apicaciones.
+- Seguridad y mantenimiento.
+
+Descripción de los requerimientos mínimos para implantar una aplicación web
+Para implantar una aplicación web es necesario disponer de los siguientes recursos y configuraciones:
+
+### Requisitos de hardware y software
+- Hardware: un servidor con suficiente memoria RAM, procesador y almacenamiento para soportar el número de usuarios y el volumen de datos previstos. Cuanto mayor estas expectativas, mejor tendrá que ser el equipo que aloje el servidor.
+- Software: un sistema operativo compatible, un servidor web (Apache o Nginx), el entorno de ejecución necesario (PHP, Java, Node.js, etc.) y un sistema gestor de bases de datos (MySQL o MariaDB), si la aplicación lo requiere.
+
+### Infraestructura de red
+
+Es necesario disponer de una conexión a Internet estable, una dirección IP y un nombre de dominio para acceder a la aplicación. También deben configurarse los puertos necesarios, el DNS y el cortafuegos para permitir las conexiones autorizadas.
+
+### Configuración del servidor web y de aplicaciones
+
+Se debe instalar y configurar el servidor web para atender las peticiones HTTP y HTTPS. Además, hay que configurar el entorno de ejecución de la aplicación, la conexión con la base de datos, las variables de entorno y los permisos de los archivos necesarios.
+
+### Seguridad y mantenimiento
+
+Es imprescindible utilizar HTTPS mediante un certificado SSL/TLS, mantener actualizado el software, establecer contraseñas seguras y controlar los permisos de acceso. También se deben realizar copias de seguridad periódicas, monitorizar el funcionamiento del servidor y aplicar actualizaciones para corregir errores y vulnerabilidades.
