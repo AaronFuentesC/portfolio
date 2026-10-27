@@ -29,7 +29,7 @@
 
 8. Captura rol escritura
 
-![Imagen8](capturaEscritura.pnh)
+![Imagen8](capturaEscritura.png)
 
 9. Rol admin para colaborador
 
