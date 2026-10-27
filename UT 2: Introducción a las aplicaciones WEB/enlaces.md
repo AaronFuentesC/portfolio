@@ -1,1 +1,3 @@
-
+-[Presentación](https://github.com/AaronFuentesC/portfolio/tree/main/UT%202:%20Introducci%C3%B3n%20a%20las%20aplicaciones%20WEB/ejercicios/presentacion)
+- [Cuestionario sobre las presentaciones](https://github.com/AaronFuentesC/portfolio/blob/main/UT%202%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20WEB/ejercicios/Fuentes_Casanova_Aar%C3%B3n_Cuestionario.pdf)
+- [Práctica 1: Introducción a la virtualización](https://github.com/AaronFuentesC/portfolio/blob/main/UT%202%3A%20Introducci%C3%B3n%20a%20las%20aplicaciones%20WEB/ejercicios/Introducci%C3%B3n%20a%20la%20virtualizaci%C3%B3n/Fuentes_Casanova_Aar%C3%B3n_Introducci%C3%B3n%20a%20la%20virtualizaci%C3%B3n.md)
