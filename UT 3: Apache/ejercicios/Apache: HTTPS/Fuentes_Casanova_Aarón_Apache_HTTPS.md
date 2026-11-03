@@ -28,22 +28,29 @@ Se comprobó que Apache2 estaba instalado y funcionando en Ubuntu mediante `syst
 ### 2.2. Habilitación de módulos
 
 Se habilitaron los módulos SSL y headers mediante `a2enmod`. También se habilitó rewrite para facilitar la configuración de redirecciones.
+
 ![Imagen1](capturas/captura1modulos.png)
 
 ### 2.3. Generación del certificado
 
 Se generó un certificado autofirmado para `aaron.practica.ejemplo.com` mediante OpenSSL. El certificado y la clave privada se guardaron en `/etc/ssl/certs/` y `/etc/ssl/private/`, respectivamente.
+
 ![Imagen2](capturas/captura2certificado.png)
+
 También se protegió la clave privada para más seguridad:
+
 ![Imagen3](capturas/captura3protegerclave.png)
 
 ### 2.4. Configuración del VirtualHost HTTPS
 
 Se configuró un VirtualHost en el puerto 443, indicando el nombre del dominio, el directorio raíz del sitio y las rutas del certificado y de la clave privada.
+
 ![Imagen4](capturas/captura4ficheroconf.png)
 
 ![Imagen5](capturas/captura5configuracion.png)
+
 También se activó el sitio para poder acceder a él:
+
 ![Imagen6](capturas/captura6activarSitio.png)
 
 
