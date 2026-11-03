@@ -68,6 +68,11 @@ Se comprobó la sintaxis de Apache mediante `apache2ctl configtest` y se verific
 
 ## 3. Resultados obtenidos
 Como se puede observar en la página, una vez que hemos creado y hemos activado el sitio, una vez que accedemos mediante la ruta https://aaron.practica.ejemplo.com se muestra el sitio correctamente. De todas formas, antes de mostrar la página ha mostrado una advertencia ya que, con el certificado autofirmado, indica que la página no es segura.
+Voy a volver a mostrar las capturas de la página para que se observe que funciona correctamente:
+
+![Imagen9](capturas/captura7comprobacion.png)
+
+![Imagen10](capturas/captura8paginassl.png)
 
 ## 4. Conclusiones
 
