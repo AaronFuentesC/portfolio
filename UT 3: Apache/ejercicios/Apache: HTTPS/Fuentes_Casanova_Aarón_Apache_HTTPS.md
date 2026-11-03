@@ -23,32 +23,44 @@ Los certificados emitidos por una autoridad de certificación confiable permiten
 ### 2.1. Comprobación de Apache2
 
 Se comprobó que Apache2 estaba instalado y funcionando en Ubuntu mediante `systemctl status apache2`.
+![Imagen0](capturas/captura0estado.png)
 
 ### 2.2. Habilitación de módulos
 
 Se habilitaron los módulos SSL y headers mediante `a2enmod`. También se habilitó rewrite para facilitar la configuración de redirecciones.
+![Imagen1](capturas/captura1modulos.png)
 
 ### 2.3. Generación del certificado
 
 Se generó un certificado autofirmado para `aaron.practica.ejemplo.com` mediante OpenSSL. El certificado y la clave privada se guardaron en `/etc/ssl/certs/` y `/etc/ssl/private/`, respectivamente.
+![Imagen2](capturas/captura2certificado.png)
+También se protegió la clave privada para más seguridad:
+![Imagen3](capturas/captura3protegerclave.png)
 
 ### 2.4. Configuración del VirtualHost HTTPS
 
 Se configuró un VirtualHost en el puerto 443, indicando el nombre del dominio, el directorio raíz del sitio y las rutas del certificado y de la clave privada.
+![Imagen4](capturas/captura4ficheroconf.png)
+
+![Imagen5](capturas/captura5configuracion.png)
+También se activó el sitio para poder acceder a él:
+![Imagen6](capturas/captura6activarSitio.png)
+
 
 ### 2.5. Validación
 
 Se comprobó la sintaxis de Apache mediante `apache2ctl configtest` y se verificó el acceso HTTPS mediante curl y el navegador.
 
-[Insertar aquí las capturas de pantalla y los resultados reales obtenidos.]
+![Imagen7](capturas/capturaPrueba1.png)
 
-### 2.6. Redirección HTTP a HTTPS
+![Imagen8](capturas/capturaPrueba2.png)
 
-[Indicar si se configuró la redirección y adjuntar el resultado de la prueba HTTP.]
+![Imagen9](capturas/captura7comprobacion.png)
+
+![Imagen10](capturas/captura8paginassl.png)
 
 ## 3. Resultados obtenidos
-
-[Describir el código HTTP recibido, el acceso a la página y el comportamiento del navegador ante el certificado autofirmado.]
+Como se puede observar en la página, una vez que hemos creado y hemos activado el sitio, una vez que accedemos mediante la ruta https://aaron.practica.ejemplo.com se muestra el sitio correctamente. De todas formas, antes de mostrar la página ha mostrado una advertencia ya que, con el certificado autofirmado, indica que la página no es segura.
 
 ## 4. Conclusiones
 
@@ -64,4 +76,3 @@ El certificado autofirmado permite realizar pruebas de cifrado en un entorno loc
 - Canonical. *About certificates*. https://ubuntu.com/server/docs/explanation/security/certificates/
 - Canonical. *Obtain TLS certificates*. https://ubuntu.com/server/docs/how-to/security/obtain-tls-certificates/
 
-Fecha de consulta: 3 de noviembre de 2026.
