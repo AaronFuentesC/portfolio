@@ -1,2 +1,3 @@
 - [Apache: Introducción y configuración](https://github.com/AaronFuentesC/portfolio/blob/main/UT%203%3A%20Apache/ejercicios/Fuentes_Casanova_Aar%C3%B3n_Apache.pdf)
 - [Apache: HTTPS](https://github.com/AaronFuentesC/portfolio/blob/main/UT%203%3A%20Apache/ejercicios/Apache%3A%20HTTPS/Fuentes_Casanova_Aar%C3%B3n_Apache_HTTPS.md)
+- [Nginx: Instalación y configuración](https://github.com/AaronFuentesC/portfolio/blob/main/UT%203%3A%20Apache/ejercicios/Nginx%3A%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Fuentes_Casanova_Aar%C3%B3n_Nginx.md)
