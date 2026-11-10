@@ -5,7 +5,7 @@ En Apache Tomcat, dentro del directorio `conf/`, se encuentran los principales a
 
 Los ficheros de documentación se encuentran en la siguiente ruta: 
 
-![Captura de los ficheros de configuración](capturas/captura1directorio.png)
+![Captura de los ficheros de configuración](capturas/captura1Directorio.png)
 
 Aunque en la instalación de tomcat que tengo yo, esta carpeta es un enlace simbólico de la carpeta /etc/tomcat10 como se puede ver en la siguiente captura:
 
