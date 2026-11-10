@@ -21,11 +21,11 @@ Nginx puede instalarse desde los repositorios de Ubuntu mediante `apt`. El servi
 ### 2.1. Instalación
 
 Se instaló Nginx utilizando los repositorios de Ubuntu y se comprobó su versión y estado.
-[capturas/captura1Instalacion.png]
+![Instalación NGINX](capturas/captura1Instalacion.png)
 
-[capturas/captura2Version.png]
+![Versión NGINX](capturas/captura2Version.png)
 
-[capturas/captura3Estado.png]
+![Estado NGINX](capturas/captura3Estado.png)
 
 Si tienes apache2 encendido, tendrás que parar primero el servidor para poder encender el servidor de nginx.
 
@@ -33,30 +33,30 @@ Si tienes apache2 encendido, tendrás que parar primero el servidor para poder e
 
 Se creó la carpeta `/var/www/aaron_nginx` con un archivo `index.html`. A continuación, se configuró un bloque `server` en `/etc/nginx/sites-available/aaron_nginx`, utilizando el puerto 8080 para evitar conflictos con Apache (Aunque en este caso yo ya lo había apagado).
 
-[capturas/captura4CrearCarpeta.png]
+![CrearCarpeta](capturas/captura4CrearCarpeta.png)
 
-[capturas/captura5Fichero.png]
+![CrearHTML](capturas/captura5Fichero.png)
 
-[capturas/captura6FicheroSitesAvailable.png]
+![CrearFicheroServidor](capturas/captura6FicheroSitesAvailable.png)
 
 
 ### 2.3. Activación y validación
 
 Se habilitó el sitio mediante un enlace simbólico en `sites-enabled`. Se comprobó la sintaxis con `nginx -t` y se reinició el servicio.
 
-[capturas/captura7activarSitio.png]
+![Activar sitio](capturas/captura7activarSitio.png)
 
-[capturas/captura8ComprobarNginx.png]
+![Comprobar sintaxis](capturas/captura8ComprobarNginx.png)
 
-[capturas/captura9estadoNginx.png]
+![Reiniciar NGINX](capturas/captura9estadoNginx.png)
 
 ### 2.4. Pruebas de funcionamiento
 
 Se realizaron peticiones mediante `curl` y se comprobó el acceso a la página desde el navegador.
 
-[capturas/captura10curlNginx.png]
+![Peticion con curl](capturas/captura10curlNginx.png)
 
-[capturas/captura11vistaPaginaWeb.png]
+![Acceso navegador](capturas/captura11vistaPaginaWeb.png)
 
 
 ## 3. Resultados obtenidos
