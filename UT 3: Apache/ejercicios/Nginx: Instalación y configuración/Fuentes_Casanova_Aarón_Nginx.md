@@ -61,13 +61,20 @@ Se realizaron peticiones mediante `curl` y se comprobó el acceso a la página d
 
 ## 3. Resultados obtenidos
 
-[Indicar el estado del servicio, el resultado de la validación y el código HTTP obtenido.]
+En esta práctica hemos sido capaces de instalar un servidor apache y poder configurar nuestra primera página. El servidor se ejecuta sin ningún error, acepta las peticiones correctamente y hemos logrado visualizarlo desde un navegador. Adjunto las capturas de los resultados tanto del curl como de la visualización desde el navegador:
+
+![Peticion con curl](capturas/captura10curlNginx.png)
+
+![Acceso navegador](capturas/captura11vistaPaginaWeb.png)
+
 
 ## 4. Conclusiones
 
 La práctica permitió instalar y configurar Nginx en Ubuntu, comprender el funcionamiento de sus bloques de servidor y verificar la publicación de una página web.
 
-También permitió identificar diferencias entre Nginx y Apache, así como la importancia de comprobar la sintaxis de la configuración y evitar conflictos de puertos.
+También permitió identificar diferencias entre Nginx y Apache, así como la importancia de comprobar la sintaxis de la configuración.
+
+Aunque haya diferencias entre Nginx y Apache, después de realizar las dos prácticas que había que hacer, me he dado cuenta de que no son tan diferentes el uno del otro (por lo menos a nivel básico que es lo que hemos hecho en las prácticas). Como yo ya había trabajado con apache anteriormente, no se me han hecho muy complicadas ni esta práctica ni la anterior con apache.
 
 ## 5. Bibliografía
 
