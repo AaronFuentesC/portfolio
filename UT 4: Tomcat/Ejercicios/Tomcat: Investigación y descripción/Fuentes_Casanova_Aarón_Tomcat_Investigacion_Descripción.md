@@ -56,44 +56,21 @@ Son dos aplicaciones web que incorpora Tomcat para facilitar la administración 
 
 ## 5. Estructura básica de directorios
 
-Tomcat organiza sus archivos en diferentes carpetas, cada una con una función específica. Las principales son:
+Tomcat organiza sus archivos en diferentes directorios, cada uno con una función específica. En una instalación estándar, destacan los siguientes:
 
-  -----------------------------------------------------------------------
-  Directorio                          Función
-  ----------------------------------- -----------------------------------
-  `bin/`                              Contiene los ejecutables y scripts
-                                      necesarios para iniciar, detener y
-                                      administrar Tomcat. En Linux, por
-                                      ejemplo, incluye `startup.sh` y
-                                      `shutdown.sh`.
+| Directorio | Función |
+|---|---|
+| `bin/` | Contiene los ejecutables y scripts necesarios para iniciar, detener y administrar Tomcat. En Linux incluye scripts como `startup.sh` y `shutdown.sh`. |
+| `conf/` | Almacena los archivos de configuración del servidor. Destaca `server.xml`, donde se configuran los puertos, conectores y hosts virtuales. |
+| `webapps/` | Contiene las aplicaciones web que Tomcat puede desplegar y ejecutar. Aquí se encuentran archivos `.war` y carpetas de aplicaciones. |
+| `lib/` | Contiene las bibliotecas Java (`.jar`) necesarias para el funcionamiento de Tomcat y sus componentes. |
+| `logs/` | Almacena los registros del servidor, incluyendo información sobre su funcionamiento y posibles errores. |
+| `work/` | Almacena archivos temporales generados durante la ejecución de las aplicaciones, como archivos compilados de JSP. |
+| `temp/` | Contiene archivos temporales utilizados por Tomcat durante su funcionamiento. |
 
-  `conf/`                             Almacena los archivos de
-                                      configuración del servidor. Destaca
-                                      `server.xml`, donde se configuran
-                                      los puertos, conectores y hosts
-                                      virtuales.
+Estas carpetas forman parte de la estructura lógica de Tomcat, pero no tienen por qué encontrarse todas juntas. En instalaciones realizadas mediante los repositorios de Ubuntu, los archivos se distribuyen en diferentes ubicaciones del sistema.
 
-  `webapps/`                          Contiene las aplicaciones web que
-                                      Tomcat puede desplegar y ejecutar.
-                                      Aquí se pueden encontrar archivos
-                                      `.war` y carpetas de aplicaciones.
-
-  `lib/`                              Contiene las bibliotecas Java
-                                      (`.jar`) necesarias para el
-                                      funcionamiento de Tomcat y sus
-                                      componentes.
-
-  `logs/`                             Almacena los registros del
-                                      servidor, incluyendo información
-                                      sobre su funcionamiento, errores y
-                                      peticiones recibidas.
-  -----------------------------------------------------------------------
-
-Estas carpetas se encuentran normalmente dentro del directorio principal
-de instalación de Tomcat. No obstante, su ubicación efectiva puede
-variar si se utilizan las variables `CATALINA_HOME` y `CATALINA_BASE`:
-la primera suele señalar la instalación de Tomcat y la segunda el
-directorio de configuración y datos de una instancia concreta.
+Por último, es importante distinguir entre las variables `CATALINA_HOME` y `CATALINA_BASE`: la primera hace referencia al directorio de instalación de Tomcat, mientras que la segunda identifica el directorio de configuración y datos de una instancia concreta.
 
 ## 6. Flujo interno de funcionamiento
 
