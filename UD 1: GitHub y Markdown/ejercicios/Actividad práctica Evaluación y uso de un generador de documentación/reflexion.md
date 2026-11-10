@@ -1,7 +1,12 @@
 ## Facilidad de uso
 
-En mi caso, he usado Javadoc y ha sido realmente fácil de utilizar. También he de decir que he estado utilizando javadoc durante más tiempo desde 
+En mi caso, he usado Javadoc y ha sido realmente fácil de utilizar. También he de decir que había utilizado javadoc anteriormente por lo que no ha sido difícil para mí.
 
 ## Ventajas / desventajas 
+Una de las ventajas principales de javadoc es que la documentación se genera en HTML de forma automática a través del código, la documentación permite facilitar el mantenimiento de la aplicación debido a que es más fácil para otros programadores o para ti mismo después de haber estado un tiempo sin trabajar en este proyecto, y como generar la documentación es tan fácil con javadoc, no se vuelve tedioso a la hora de documentar. Obviamente otras de las ventajas de utilizar javadoc (aunque esta es general entre todos los generadores de documentación) es que permite que otros desarrolladores comprendan tu código de manera sencilla. Una de las ventajas más grandes de la utilización de Javadoc es que está integrado en el ecosistema Java y es compatible con diferentes herramientas de desarrollo.
+
+En cuanto a las desventajas, una muy notable es que este generador de documentación requiere que emplees bastante tiempo en caso de que quieras generar una documentación detallada. Con este generador de documentación, cuando cambies el código de lo que quieras documentar, vas a tener que cambiar la documentación (aunque seguramente sea igual en la mayoría de los generadores de documentación). Esto genera que en caso de que no se actualice la documentación cuando han habido cambios (esto puede ser debido a que el desarrollador que ha cambiado el código no se ha acordado de cambiar la documentación), haya información desactualizada, de tal forma que el usuario u otro desarrollador no sea informado de forma correcta. Javadoc, tampoco genera documentación de la lógica de manera automática de forma que sí o sí vas a tener que documentarlo a mano, haciendo que tengas que invertir tiempo que puede ser que no tengas.  
 
 ## Recomendación para proyecto colaborativo
+En el caso de que estés trabajando en un proyecto de Java y querer usar el generador de documentación que esté integrado en el ecosistema, el utilizar javadoc es la opción principal, es un generador de documentación que es fácil de entender y que permite que otros desarrolladores sepan lo que hace el código de una manera muy simple.
+En caso de que no quieras un generador de documentación que requiera mucha configuración y que no se necesite informarse mucho acerca de él para entenderlo, javadoc es perfecto debido a su gran facilidad de uso, sobretodo en proyectos Java.
