@@ -5,7 +5,7 @@ En Apache Tomcat, dentro del directorio `conf/`, se encuentran los principales a
 
 Los ficheros de documentación se encuentran en la siguiente ruta: 
 
-![Captura de los ficheros de configuración](captura1DirectorioApache.png)
+![Captura de los ficheros de configuración](capturas/captura1DirectorioApache.png)
 
 ## 1. conf/server.xml
 
