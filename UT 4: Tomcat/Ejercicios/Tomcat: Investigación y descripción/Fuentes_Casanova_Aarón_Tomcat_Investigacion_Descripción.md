@@ -70,6 +70,8 @@ Tomcat organiza sus archivos en diferentes directorios, cada uno con una funció
 
 Estas carpetas forman parte de la estructura lógica de Tomcat, pero no tienen por qué encontrarse todas juntas. En instalaciones realizadas mediante los repositorios de Ubuntu, los archivos se distribuyen en diferentes ubicaciones del sistema.
 
+Si quieres ver donde se encuentran las carpetas, puedes ejecutar el comando `dpkg -L tomcat10`.
+
 Por último, es importante distinguir entre las variables `CATALINA_HOME` y `CATALINA_BASE`: la primera hace referencia al directorio de instalación de Tomcat, mientras que la segunda identifica el directorio de configuración y datos de una instancia concreta.
 
 ## 6. Flujo interno de funcionamiento
