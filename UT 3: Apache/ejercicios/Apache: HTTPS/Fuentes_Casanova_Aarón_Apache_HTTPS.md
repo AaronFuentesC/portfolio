@@ -80,6 +80,8 @@ La práctica permite comprender la importancia de HTTPS para proteger las comuni
 
 El certificado autofirmado permite realizar pruebas de cifrado en un entorno local, aunque no proporciona confianza automática en el navegador. Para un sitio público se recomienda utilizar un certificado emitido por una autoridad de certificación confiable.
 
+Esta práctica enseña bastante bien el como añadir un certificado para poder hacer una página web segura, aunque como es un certificado autofirmado, seguramente el obtener un certificado emitido por una autoridad de certificación confiable e implantarlo en el servidor sería algo más complicado.
+
 ## 5. Bibliografía
 
 - Apache Software Foundation. *Apache SSL/TLS Encryption*. https://httpd.apache.org/docs/2.4/ssl/
